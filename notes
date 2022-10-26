@@ -1,0 +1,34 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+
+#Web traffic
+
+*Http 1.1 – It provides faster delivery of web pages and reduces web traffic if you compare it to Http 1.0. However, there is an increased risk of network congestion.
+*Http 2 – The Http 2 version utilizes multiplexing and server pushes to effectively reduce the page load time by a greater margin along with being sensitive to network delays.
+
+#Performance optimization
+
+*Http 1.1 – Some of the optimizations used is Http 1.1 version are sprinting, inlining, domain shrading, and concatenating.
+*Http 2 – This protocol version removes the need for unnecessary optimization hacks.
+
+#Status code
+
+*Http 1.1 – This protocol introduces a warning header field to carry additional information about the status of a message. It can define 24 status codes, error reporting is quicker and more efficient.
+*Http 2 – It brings the fundamental semantics of HTTP like headers, and status code remains the same.
+
+#Authentication mechanism
+*Http 1.1 – Protocol Http 1.1 is much secured than Http 1.0 because it uses digest authentication and NTLM authentication.
+*Http 2.2 – The security concern in Http 2 version is also good and almost same as Http 1.1. Rather Http 2 is better equipped to deal with security threats because of the new features it brings. For example, new TLS feature like connection error of type inadequate security.
+
+#Security
+*Http 1.1 – In this version, SSL or secure sockets layer is not required but recommended. Digest authentication is an improvement over  Http 1.0 which is now being used in Http 1.1. Moreover, Https uses SSL/TLS for secure encrypted communication.
+*Http 2 – In Http 2 protocol, security is not at all recommended. It is because the security is encrypted since all almost all clients demand traffic to be encrypted. It also has minimum standards and minimum key size for encryption.
+
+
+2.Write a blog about objects and its internal representation in Javascript
+
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
+
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
+
+Loosely speaking, objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
